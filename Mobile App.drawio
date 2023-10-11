@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T09:29:07.489Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="wcg6l6uAlPW8INz8PvlA" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T09:40:58.865Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="nMta3Ew4RGTDmITOfRT2" version="21.8.2" type="github">
   <diagram name="Azure Infra-HLD" id="SlN6AzKmrTHUgA4pcfvM">
-    <mxGraphModel dx="1624" dy="425" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="765" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1175,6 +1175,9 @@
               <mxPoint x="153" y="310" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jilcatWYEXHCxH3toGak-320" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 8px;&quot;&gt;HONGKONG&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-382" y="22" width="54.29" height="17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
