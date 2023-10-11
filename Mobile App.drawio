@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T10:00:33.514Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Htkj4bhceWkvWH_Whjqx" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T10:14:55.615Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="tak53CSE5TBntFiOMP0b" version="21.8.2" type="github">
   <diagram name="Azure Infra-HLD" id="SlN6AzKmrTHUgA4pcfvM">
-    <mxGraphModel dx="1624" dy="425" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="956" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,12 +57,12 @@
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-17" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#CC6600;strokeWidth=1;dashed=1;dashPattern=1 1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-285.35000000000025" y="171.8299999999997" as="sourcePoint" />
-            <mxPoint x="-254.35000000000025" y="171.8299999999997" as="targetPoint" />
+            <mxPoint x="279.89999999999975" y="182.8299999999997" as="sourcePoint" />
+            <mxPoint x="310.89999999999975" y="182.8299999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-18" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;CI/CD flow&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-252.26999999999987" y="161.8299999999997" width="54.92" height="17" as="geometry" />
+          <mxGeometry x="312.98000000000013" y="172.8299999999997" width="54.92" height="17" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-20" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=none;fillColor=#99CCFF;perimeterSpacing=0;opacity=50;" vertex="1" parent="1">
           <mxGeometry x="200.53" y="362" width="201.47" height="150.6" as="geometry" />
@@ -357,12 +357,12 @@
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-111" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#994C00;dashed=1;dashPattern=1 1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-283.10999999999865" y="60.15999999999963" as="sourcePoint" />
-            <mxPoint x="-251.40999999999883" y="59.769999999999754" as="targetPoint" />
+            <mxPoint x="280.7900000000013" y="135.15999999999963" as="sourcePoint" />
+            <mxPoint x="312.49000000000115" y="134.76999999999975" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-112" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;DNS flow&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-250.30999999999938" y="50.40999999999963" width="41.2" height="17" as="geometry" />
+          <mxGeometry x="313.5900000000006" y="125.40999999999963" width="41.2" height="17" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-113" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Cosmos&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="125.6400000000001" y="451.22999999999956" width="49.86" height="17" as="geometry" />
@@ -701,93 +701,93 @@
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-220" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=1;dashed=1;dashPattern=1 1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-285.8300000000007" y="188.48999999999955" as="sourcePoint" />
-            <mxPoint x="-254.83000000000072" y="188.48999999999955" as="targetPoint" />
+            <mxPoint x="585.5699999999993" y="129.36999999999955" as="sourcePoint" />
+            <mxPoint x="616.5699999999993" y="129.36999999999955" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-221" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;CDC flow from onprem DB to Azure PostgreSQL&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-252.7499999999999" y="178.48999999999955" width="180.07" height="17" as="geometry" />
+          <mxGeometry x="618.6500000000001" y="119.36999999999955" width="180.07" height="17" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-222" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#006600;strokeWidth=1;dashed=1;dashPattern=1 1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-283.1900000000004" y="77.40999999999963" as="sourcePoint" />
-            <mxPoint x="-252.1900000000004" y="77.40999999999963" as="targetPoint" />
+            <mxPoint x="280.7099999999996" y="152.40999999999963" as="sourcePoint" />
+            <mxPoint x="311.7099999999996" y="152.40999999999963" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-223" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;User/App Request flow&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-250.11000000000047" y="67.40999999999963" width="90.42" height="17" as="geometry" />
+          <mxGeometry x="313.7899999999995" y="142.40999999999963" width="90.42" height="17" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-224" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#0000CC;strokeWidth=1;dashed=1;dashPattern=1 1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-284.2500000000008" y="123.8299999999997" as="sourcePoint" />
-            <mxPoint x="-253.2500000000008" y="123.8299999999997" as="targetPoint" />
+            <mxPoint x="403.6499999999992" y="133.4399999999997" as="sourcePoint" />
+            <mxPoint x="434.6499999999992" y="133.4399999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-225" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;App to external cloud vendors flow&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-251.17000000000087" y="113.8299999999997" width="160.29" height="17" as="geometry" />
+          <mxGeometry x="436.7299999999991" y="123.43999999999971" width="160.29" height="17" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-226" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#CC00CC;strokeWidth=1;dashed=1;dashPattern=1 1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-285.8300000000007" y="203.38999999999965" as="sourcePoint" />
-            <mxPoint x="-254.83000000000072" y="203.38999999999965" as="targetPoint" />
+            <mxPoint x="585.5699999999993" y="144.26999999999964" as="sourcePoint" />
+            <mxPoint x="616.5699999999993" y="144.26999999999964" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-227" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;ETL&amp;nbsp; from onprem DB to Azure PostgreSQL&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-252.7500000000008" y="193.38999999999965" width="160.29" height="17" as="geometry" />
+          <mxGeometry x="618.6499999999992" y="134.26999999999964" width="160.29" height="17" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-228" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=1 1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-282.41000000000065" y="107.8299999999997" as="sourcePoint" />
-            <mxPoint x="-251.41000000000065" y="107.8299999999997" as="targetPoint" />
+            <mxPoint x="404.4899999999993" y="197.2699999999997" as="sourcePoint" />
+            <mxPoint x="435.4899999999993" y="197.2699999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-229" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;App to Database/Storage/MessageQueue flow&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-249.3299999999998" y="97.8299999999997" width="170.64" height="17" as="geometry" />
+          <mxGeometry x="437.57000000000016" y="187.2699999999997" width="170.64" height="17" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-230" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00CC00;strokeWidth=1;dashed=1;dashPattern=1 1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-283.97000000000105" y="92.8299999999997" as="sourcePoint" />
-            <mxPoint x="-252.97000000000105" y="92.8299999999997" as="targetPoint" />
+            <mxPoint x="279.9299999999989" y="167.8299999999997" as="sourcePoint" />
+            <mxPoint x="310.9299999999989" y="167.8299999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-231" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Static files flow&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-250.8900000000002" y="82.8299999999997" width="90.42" height="17" as="geometry" />
+          <mxGeometry x="313.00999999999976" y="157.8299999999997" width="90.42" height="17" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-232" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#7F00FF;strokeWidth=1;dashed=1;dashPattern=1 1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-283.9300000000011" y="139.8299999999997" as="sourcePoint" />
-            <mxPoint x="-252.9300000000011" y="139.8299999999997" as="targetPoint" />
+            <mxPoint x="403.9699999999989" y="149.4399999999997" as="sourcePoint" />
+            <mxPoint x="434.9699999999989" y="149.4399999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-233" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;App to onprem services/partners flow&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-250.85000000000116" y="129.8299999999997" width="160.29" height="17" as="geometry" />
+          <mxGeometry x="437.0499999999988" y="139.4399999999997" width="160.29" height="17" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-234" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#CCCC00;strokeWidth=1;dashed=1;dashPattern=1 1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-283.9300000000011" y="154.8299999999997" as="sourcePoint" />
-            <mxPoint x="-252.9300000000011" y="154.8299999999997" as="targetPoint" />
+            <mxPoint x="403.9699999999989" y="164.4399999999997" as="sourcePoint" />
+            <mxPoint x="434.9699999999989" y="164.4399999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-235" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;App to AWS flow&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-250.85000000000116" y="144.8299999999997" width="160.29" height="17" as="geometry" />
+          <mxGeometry x="437.0499999999988" y="154.4399999999997" width="160.29" height="17" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-236" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF8000;strokeWidth=1;dashed=1;dashPattern=1 1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-286.00000000000125" y="220.38999999999965" as="sourcePoint" />
-            <mxPoint x="-255.00000000000125" y="220.38999999999965" as="targetPoint" />
+            <mxPoint x="585.3999999999987" y="161.26999999999964" as="sourcePoint" />
+            <mxPoint x="616.3999999999987" y="161.26999999999964" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-237" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;ETL&amp;nbsp; from Azure PostgreSQL to Blob storage&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-252.9200000000004" y="210.38999999999965" width="165.64" height="17" as="geometry" />
+          <mxGeometry x="618.4799999999996" y="151.26999999999964" width="165.64" height="17" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-238" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF66B3;strokeWidth=1;dashed=1;dashPattern=1 1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-286.00000000000125" y="235.38999999999965" as="sourcePoint" />
-            <mxPoint x="-255.00000000000125" y="235.38999999999965" as="targetPoint" />
+            <mxPoint x="585.3999999999987" y="176.26999999999964" as="sourcePoint" />
+            <mxPoint x="616.3999999999987" y="176.26999999999964" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-239" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;ETL&amp;nbsp; from Azure Blob storage to AWS S3 for analytic&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-252.9200000000004" y="225.38999999999965" width="195.92" height="17" as="geometry" />
+          <mxGeometry x="618.4799999999996" y="166.26999999999964" width="195.92" height="17" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-244" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 10px; color: rgb(255, 255, 255); background-color: initial;&quot;&gt;2&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#006600;" vertex="1" parent="1">
           <mxGeometry x="691.83" y="572.8799999999999" width="18" height="18" as="geometry" />
@@ -1052,7 +1052,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-295" value="&lt;p style=&quot;margin: 0in; font-family: &amp;quot;Myriad Pro&amp;quot;; font-size: 14px;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;High-level Infra Architect&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#FF0000;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="22.22" y="19.58" width="162.78" height="28.5" as="geometry" />
+          <mxGeometry x="12.720000000000027" y="118" width="162.78" height="28.5" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-296" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Load_Balancer_feature.svg;" vertex="1" parent="1">
           <mxGeometry x="425.99" y="457.1099999999999" width="22.83" height="22.83" as="geometry" />
@@ -1176,8 +1176,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jilcatWYEXHCxH3toGak-320" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 8px;&quot;&gt;Client to App&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-382" y="22" width="58" height="17" as="geometry" />
+        <mxCell id="jilcatWYEXHCxH3toGak-320" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 8px;&quot;&gt;To App flows&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="277.9" y="109" width="82" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="jilcatWYEXHCxH3toGak-322" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Intra-App flows&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="401.9" y="172.82999999999998" width="82" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="jilcatWYEXHCxH3toGak-323" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;From App flows&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="401.9" y="109" width="103" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="jilcatWYEXHCxH3toGak-325" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Data flows&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="583.4" y="108" width="103" height="17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
