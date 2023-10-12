@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T02:36:23.499Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="cP8b98I6xmzOpKNv9Ae9" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T02:38:19.606Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="KGIH8G_Z_tMa7BiCiae3" version="21.8.2" type="github">
   <diagram name="Azure Infra-HLD" id="SlN6AzKmrTHUgA4pcfvM">
-    <mxGraphModel dx="1912" dy="1020" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="765" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -488,7 +488,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-155" value="&lt;p style=&quot;margin: 0in; font-size: 6px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 6px;&quot;&gt;&lt;b&gt;- mapi.vib.com.vn:&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-size: 6px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 6px;&quot;&gt;+ (1) VN&#39;s users: mapivn.vib.com.vn (public IP of onprem DMZ F5)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-size: 6px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 6px;&quot;&gt;+ (2) Int&#39;s users: mapihk.vib.com.vn (public IP of HK AppGW)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-size: 6px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 6px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-size: 6px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 6px;&quot;&gt;&lt;b&gt;- myvib2.vib.com.vn:&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-size: 6px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 6px;&quot;&gt;+ (2) Public IP of HK AppGW&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#FF0000;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="695.8199999999999" y="228.9999999999999" width="102.17" height="62.52" as="geometry" />
+          <mxGeometry x="704.8199999999999" y="228.9999999999999" width="102.17" height="62.52" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-156" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/API_Management_Services.svg;" vertex="1" parent="1">
           <mxGeometry x="328" y="623.49" width="26.66" height="24.61" as="geometry" />
