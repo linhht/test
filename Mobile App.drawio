@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T10:56:22.412Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="68--QX5UIEhK48VjYswS" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T10:58:39.152Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="kNQYzWfIYhCOBoDA6cNK" version="21.8.2" type="github">
   <diagram name="Azure Infra-HLD" id="SlN6AzKmrTHUgA4pcfvM">
-    <mxGraphModel dx="2993" dy="956" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3287" dy="900" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="934" y="1197" width="1509" height="845" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-326" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#0066CC;fillColor=default;perimeterSpacing=0;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="-1142" y="222" width="820" height="799" as="geometry" />
+          <mxGeometry x="-1258" y="222" width="936" height="797" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#0066CC;fillColor=default;perimeterSpacing=0;opacity=50;" vertex="1" parent="1">
           <mxGeometry x="11" y="216" width="804" height="795" as="geometry" />
@@ -1579,8 +1579,8 @@
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-448" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#006600;strokeWidth=2;dashed=1;dashPattern=1 1;entryX=0.641;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1082.73" y="430.19999999999976" as="sourcePoint" />
-            <mxPoint x="-1082.8855600000002" y="600.164" as="targetPoint" />
+            <mxPoint x="-1149" y="630" as="sourcePoint" />
+            <mxPoint x="-1107.99556" y="630.404" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-449" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#000000;shape=mxgraph.mscae.enterprise.internet_hollow;fillStyle=auto;" vertex="1" parent="1">
@@ -1603,20 +1603,20 @@
         </mxCell>
         <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:top;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="jilcatWYEXHCxH3toGak-454">
           <mxCell style="verticalAlign=top;align=left;overflow=width;vsdxID=1235;fillColor=#ffffff;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);dashed=1;dashPattern=1.00 2.00;strokeColor=#7f7f7f;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-            <mxGeometry x="-1134.17" y="376.0699999999998" width="98.5" height="53" as="geometry" />
+            <mxGeometry x="-1247.28" y="603.5999999999998" width="98.5" height="53" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="jilcatWYEXHCxH3toGak-455" value="" style="points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.handheld;strokeColor=none;labelBackgroundColor=none;fontSize=12;fillColor=#7EA6E0;" vertex="1" parent="1">
-          <mxGeometry x="-1071.0900000000001" y="381.14999999999975" width="22.69" height="30.25" as="geometry" />
+          <mxGeometry x="-1184.2" y="608.6799999999997" width="22.69" height="30.25" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-456" value="&lt;p style=&quot;line-height: 0%;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Mobile&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1074.25" y="411.3999999999998" width="29" height="10.63" as="geometry" />
+          <mxGeometry x="-1187.36" y="638.9299999999998" width="29" height="10.63" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-457" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Users.svg;" vertex="1" parent="1">
-          <mxGeometry x="-1112.0900000000001" y="383.14999999999975" width="24" height="26.25" as="geometry" />
+          <mxGeometry x="-1225.2" y="610.6799999999997" width="24" height="26.25" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-458" value="&lt;p style=&quot;line-height: 0%;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Web Transer&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1131.0900000000001" y="411.3999999999998" width="62" height="10.63" as="geometry" />
+          <mxGeometry x="-1244.2" y="638.9299999999998" width="62" height="10.63" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-459" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/CDN_Profiles.svg;" vertex="1" parent="1">
           <mxGeometry x="-885.74" y="380.79999999999995" width="45.72" height="26.89" as="geometry" />
@@ -1625,28 +1625,28 @@
           <mxGeometry x="-888.9999999999995" y="403.6899999999998" width="56.49" height="14.95" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-461" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Traffic_Manager_Profiles.svg;" vertex="1" parent="1">
-          <mxGeometry x="-1072.9" y="321.06999999999925" width="30" height="30" as="geometry" />
+          <mxGeometry x="-1187.52" y="687.4799999999992" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-462" value="&lt;p style=&quot;line-height: 0%;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Traffic&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;mgmt&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=0;" vertex="1" parent="1">
-          <mxGeometry x="-1077.3899999999999" y="309.0699999999997" width="45" height="10.63" as="geometry" />
+          <mxGeometry x="-1192.0099999999998" y="715.1099999999997" width="45" height="10.63" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-463" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.dns;" vertex="1" parent="1">
-          <mxGeometry x="-1134.56" y="319.9999999999998" width="28.000000000000004" height="28.000000000000004" as="geometry" />
+          <mxGeometry x="-1249.1799999999998" y="686.4099999999997" width="28.000000000000004" height="28.000000000000004" as="geometry" />
         </mxCell>
-        <mxCell id="jilcatWYEXHCxH3toGak-464" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#994C00;dashed=1;dashPattern=1 1;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1">
+        <mxCell id="jilcatWYEXHCxH3toGak-464" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;strokeColor=#994C00;dashed=1;dashPattern=1 1;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1120.3899999999999" y="376.06999999999994" as="sourcePoint" />
-            <mxPoint x="-1120.0299999999997" y="346.53999999999974" as="targetPoint" />
+            <mxPoint x="-1235.8299999999997" y="687.0799999999999" as="sourcePoint" />
+            <mxPoint x="-1235.4699999999996" y="657.5499999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-465" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;strokeColor=#994C00;dashed=1;dashPattern=1 1;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1072.56" y="335.50999999999965" as="sourcePoint" />
-            <mxPoint x="-1106.56" y="335.1799999999997" as="targetPoint" />
+            <mxPoint x="-1187.1799999999998" y="701.9199999999996" as="sourcePoint" />
+            <mxPoint x="-1221.1799999999998" y="701.5899999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-466" value="&lt;p style=&quot;margin: 0in; font-size: 6px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 6px;&quot;&gt;&lt;b&gt;- mapi.vib.com.vn:&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-size: 6px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 6px;&quot;&gt;+ (1) VN&#39;s users: mapivn.vib.com.vn (public IP of onprem DMZ F5)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-size: 6px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 6px;&quot;&gt;+ (2) Int&#39;s users: mapihk.vib.com.vn (public IP of HK AppGW)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-size: 6px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 6px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-size: 6px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 6px;&quot;&gt;&lt;b&gt;- myvib2.vib.com.vn:&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in; font-size: 6px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 6px;&quot;&gt;+ (2) Public IP of HK AppGW&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#FF0000;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1136.0700000000002" y="244.1499999999999" width="102.17" height="62.52" as="geometry" />
+          <mxGeometry x="-1249.18" y="730.3699999999999" width="102.17" height="62.52" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-467" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/API_Management_Services.svg;" vertex="1" parent="1">
           <mxGeometry x="-715.21" y="634.1800000000001" width="26.66" height="24.61" as="geometry" />
@@ -2054,7 +2054,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-608" value="&lt;p style=&quot;line-height: 0%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Public&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=0;" vertex="1" parent="1">
-          <mxGeometry x="-1138.8899999999999" y="309.30999999999995" width="33" height="10.63" as="geometry" />
+          <mxGeometry x="-1253.5099999999998" y="715.3499999999999" width="33" height="10.63" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-613" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#CC6600;strokeWidth=2;dashed=1;dashPattern=1 1;startArrow=none;startFill=0;endFill=1;entryX=-0.016;entryY=0.486;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2319,10 +2319,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jilcatWYEXHCxH3toGak-653" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#00CC00;strokeWidth=2;dashed=1;dashPattern=1 1;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+        <mxCell id="jilcatWYEXHCxH3toGak-653" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#00CC00;strokeWidth=2;dashed=1;dashPattern=1 1;startArrow=classic;startFill=1;endFill=0;entryX=0.5;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-887" y="399" as="sourcePoint" />
-            <mxPoint x="-1033.76" y="399.32" as="targetPoint" />
+            <mxPoint x="-886" y="398" as="sourcePoint" />
+            <mxPoint x="-1197.03" y="602.3349999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-654" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#00CC00;strokeWidth=2;dashed=1;dashPattern=1 1;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
