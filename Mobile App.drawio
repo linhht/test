@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T10:55:29.413Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="J_R54kqi75gkGCxgN_DD" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T10:56:22.412Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="68--QX5UIEhK48VjYswS" version="21.8.2" type="github">
   <diagram name="Azure Infra-HLD" id="SlN6AzKmrTHUgA4pcfvM">
     <mxGraphModel dx="2993" dy="956" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jilcatWYEXHCxH3toGak-1257" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#0066CC;fillColor=default;perimeterSpacing=0;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="934" y="1197" width="1509" height="845" as="geometry" />
+        </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-326" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#0066CC;fillColor=default;perimeterSpacing=0;opacity=50;" vertex="1" parent="1">
           <mxGeometry x="-1142" y="222" width="820" height="799" as="geometry" />
         </mxCell>
@@ -4297,14 +4300,8 @@
         <mxCell id="jilcatWYEXHCxH3toGak-668" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=2;opacity=70;" vertex="1" parent="1">
           <mxGeometry x="944" y="733.22" width="493" height="306.78" as="geometry" />
         </mxCell>
-        <mxCell id="jilcatWYEXHCxH3toGak-1257" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#0066CC;fillColor=default;perimeterSpacing=0;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="934" y="1197" width="1509" height="845" as="geometry" />
-        </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-1258" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#000000;fillColor=default;perimeterSpacing=0;" vertex="1" parent="1">
           <mxGeometry x="943.74" y="1247" width="584.26" height="460.82" as="geometry" />
-        </mxCell>
-        <mxCell id="jilcatWYEXHCxH3toGak-1259" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="1025" y="1330.6" width="402" height="264.4" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-1260" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="1650.9299999999998" y="1569.55" width="96.84" height="61" as="geometry" />
@@ -4314,7 +4311,7 @@
         </mxCell>
         <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:top;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="jilcatWYEXHCxH3toGak-1262">
           <mxCell style="verticalAlign=top;align=left;overflow=width;vsdxID=1235;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);dashed=1;dashPattern=1 1;strokeColor=#7f7f7f;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;strokeWidth=1;" vertex="1" parent="1">
-            <mxGeometry x="1183" y="1609" width="217" height="27.6" as="geometry" />
+            <mxGeometry x="1183" y="1609" width="217" height="31" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:top;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="jilcatWYEXHCxH3toGak-1263">
@@ -5932,6 +5929,9 @@
             <mxPoint x="1374" y="1964.6099999999992" as="sourcePoint" />
             <mxPoint x="1273.4723600000007" y="1792.0079999999998" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jilcatWYEXHCxH3toGak-1259" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=1;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="1330.6" width="402" height="264.4" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
