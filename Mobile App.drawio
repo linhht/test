@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T10:59:37.352Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="2ZGNnUlRY2RNUgba_mzD" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T09:36:01.830Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="o9xUbZYR57q_wNiupObk" version="21.8.2" type="github">
   <diagram name="Azure Infra-HLD" id="SlN6AzKmrTHUgA4pcfvM">
-    <mxGraphModel dx="3287" dy="900" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3393" dy="999" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1186,7 +1186,7 @@
         <mxCell id="jilcatWYEXHCxH3toGak-325" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Data flows&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="583.4" y="108" width="103" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="jilcatWYEXHCxH3toGak-327" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#000000;fillColor=none;perimeterSpacing=0;" vertex="1" parent="1">
+        <mxCell id="jilcatWYEXHCxH3toGak-327" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#000000;fillColor=none;perimeterSpacing=0;opacity=70;" vertex="1" parent="1">
           <mxGeometry x="-918" y="266" width="586" height="466" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-329" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
@@ -1208,7 +1208,7 @@
         <mxCell id="jilcatWYEXHCxH3toGak-333" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=none;fillColor=#99CCFF;perimeterSpacing=0;opacity=50;" vertex="1" parent="1">
           <mxGeometry x="-496.59" y="371.9999999999998" width="75.21" height="239.55" as="geometry" />
         </mxCell>
-        <mxCell id="jilcatWYEXHCxH3toGak-334" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="jilcatWYEXHCxH3toGak-334" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;opacity=70;" vertex="1" parent="1">
           <mxGeometry x="-830" y="740" width="498" height="270" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-335" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=none;fillColor=#99CCFF;perimeterSpacing=0;opacity=50;" vertex="1" parent="1">
