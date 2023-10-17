@@ -1,20 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T09:37:50.625Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Z1fPJr7nH6iw4l8kwUDr" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T09:55:22.832Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="6Qali7J6Arktoaons5TH" version="21.8.2" type="github">
   <diagram name="Azure Infra-HLD" id="SlN6AzKmrTHUgA4pcfvM">
-    <mxGraphModel dx="2703" dy="615" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3034" dy="799" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jilcatWYEXHCxH3toGak-1257" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#0066CC;fillColor=default;perimeterSpacing=0;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="934" y="1197" width="1509" height="845" as="geometry" />
+        <mxCell id="jilcatWYEXHCxH3toGak-327" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#000000;fillColor=none;perimeterSpacing=0;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="-918" y="266" width="586" height="466" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-326" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#0066CC;fillColor=default;perimeterSpacing=0;opacity=50;" vertex="1" parent="1">
           <mxGeometry x="-1258" y="254" width="936" height="765" as="geometry" />
+        </mxCell>
+        <mxCell id="jilcatWYEXHCxH3toGak-1257" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#0066CC;fillColor=default;perimeterSpacing=0;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="934" y="1197" width="1509" height="845" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#0066CC;fillColor=default;perimeterSpacing=0;opacity=50;" vertex="1" parent="1">
           <mxGeometry x="11" y="216" width="804" height="795" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-328" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="-815" y="353" width="403" height="78" as="geometry" />
+          <mxGeometry x="-815" y="353" width="403" height="266" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#000000;fillColor=none;perimeterSpacing=0;" vertex="1" parent="1">
           <mxGeometry x="20.74" y="260" width="584.26" height="460.82" as="geometry" />
@@ -1185,9 +1188,6 @@
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-325" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Data flows&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="583.4" y="108" width="103" height="17" as="geometry" />
-        </mxCell>
-        <mxCell id="jilcatWYEXHCxH3toGak-327" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#000000;fillColor=none;perimeterSpacing=0;opacity=70;" vertex="1" parent="1">
-          <mxGeometry x="-918" y="266" width="586" height="466" as="geometry" />
         </mxCell>
         <mxCell id="jilcatWYEXHCxH3toGak-329" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="-1109.96" y="595.7" width="96.84" height="61" as="geometry" />
