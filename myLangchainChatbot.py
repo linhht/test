@@ -1,10 +1,13 @@
 # Install required modules/libraries
 # pip install --upgrade pip
 # pip install --upgrade langchain
+
 # pip install openai
 # Run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface
 # Or pin your installation to the old version, e.g. `pip install openai==0.28`
-# pip install python-dotenv
+
+# pip install --upgrade flask python-dotenv-vault
+
 # Create requirement.txt
 # pip freeze > requirements.txt
 # pip install -r requirements.txt
@@ -12,10 +15,23 @@
 import os
 from openai import OpenAI
 
-# Load local env
-from dotenv import load_dotenv, find_dotenv
-_=load_dotenv(find_dotenv()) # read local .env file
-client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
+# Load local env - old way
+#from dotenv import load_dotenv, find_dotenv
+#_=load_dotenv(find_dotenv()) # read local .env file
+#client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
+
+# npx dotenv-vault@latest new vlt_7ff30dc191616f40a6b2655a35973f4a99b98a2c9deee508053506fb94da583d
+# Need to install the following packages:
+# dotenv-vault@1.25.0
+# Ok to proceed? (y) y
+# npx dotenv-vault@latest pull
+
+
+# Load remote env - new way with cloud-based (dotenv.org) .env file
+from dotenv_vault import load_dotenv
+load_dotenv()
+client = OpenAI(api_key=os.getenv['OPENAI_API_KEY'])
+
 
 # Set the model variable based on the current date
 llm_model="gpt-3.5-turbo"
@@ -84,14 +100,14 @@ customer_messages=prompt_template.format_messages(
 #customer_response=chat(customer_messages)
 #print(customer_response.content)
 
-service_reply="""Hey there customer, \
+service_reply="Hey there customer, \
 the warranty does not cover \
 cleaning expenses for your kitchen \
 because it's your fault that \
 you misused your blender \
 by forgetting to put the lid on before \
 starting the blender. \
-Tough luck! See ya!"""
+Tough luck! See ya!"
 
 service_style_pirate="""\
 a polite tone \
