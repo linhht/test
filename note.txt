@@ -76,6 +76,8 @@ DOTENV_KEY='dotenv://:key_3e01f516ab3afccab63494b905a641d5cb978d3640d6d3d6a4e29f
 py myLangchainChatbot.py
 alias py="DOTENV_KEY='dotenv://:key_3e01f516ab3afccab63494b905a641d5cb978d3640d6d3d6a4e29f3e76fb58ec@dotenv.org/vault/.env.vault?environment=production' python"
 
+DOTENV_KEY='dotenv://:key_3e01f516ab3afccab63494b905a641d5cb978d3640d6d3d6a4e29f3e76fb58ec@dotenv.org/vault/.env.vault?environment=production' panel serve myLangchainChatbot.py --show
+
 @linhht ➜ /workspaces/test (master) $ panel serve myLangchainChatbot.py --show
 2023-12-08 08:59:37,324 Starting Bokeh server version 3.3.2 (running on Tornado 6.3.3)
 2023-12-08 08:59:37,325 User authentication hooks NOT provided (default user enabled)

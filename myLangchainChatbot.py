@@ -32,7 +32,7 @@ from dotenv_vault import load_dotenv
 
 load_dotenv()
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-print(os.getenv('OPENAI_API_KEY'))
+#print(os.getenv('OPENAI_API_KEY'))
 
 # Set llm model
 llm_name = "gpt-3.5-turbo"
@@ -143,6 +143,7 @@ def load_db(file, chain_type, k):
     return qa 
 
 import panel as pn
+pn.extension()
 import param
 
 class cbfs(param.Parameterized):
@@ -257,4 +258,7 @@ dashboard = pn.Column(
     pn.Row(pn.pane.Markdown('# ChatWithYourData_Bot')),
     pn.Tabs(('Conversation', tab1), ('Database', tab2), ('Chat History', tab3),('Configure', tab4))
 )
-dashboard
+
+# For deployment on a web server wrap it in a nice template.
+dashboard.servable()
+
