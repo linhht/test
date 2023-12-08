@@ -73,4 +73,41 @@ $ DOTENV_KEY='dotenv://:key_1234@dotenv.org/vault/.env.vault?environment=product
 
 DOTENV_KEY='dotenv://:key_3e01f516ab3afccab63494b905a641d5cb978d3640d6d3d6a4e29f3e76fb58ec@dotenv.org/vault/.env.vault?environment=production' python myLangchainChatbot.py
 
-py myLangchainChatbot.pyalias py="DOTENV_KEY='dotenv://:key_3e01f516ab3afccab63494b905a641d5cb978d3640d6d3d6a4e29f3e76fb58ec@dotenv.org/vault/.env.vault?environment=production' python"
+py myLangchainChatbot.py
+alias py="DOTENV_KEY='dotenv://:key_3e01f516ab3afccab63494b905a641d5cb978d3640d6d3d6a4e29f3e76fb58ec@dotenv.org/vault/.env.vault?environment=production' python"
+
+@linhht ➜ /workspaces/test (master) $ panel serve myLangchainChatbot.py --show
+2023-12-08 08:59:37,324 Starting Bokeh server version 3.3.2 (running on Tornado 6.3.3)
+2023-12-08 08:59:37,325 User authentication hooks NOT provided (default user enabled)
+2023-12-08 08:59:37,338 Bokeh app running at: http://localhost:5006/myLangchainChatbot
+2023-12-08 08:59:37,338 Starting Bokeh server with process id: 57488
+2023-12-08 08:59:42,377 Error running application handler <bokeh.application.handlers.script.ScriptHandler object at 0x7fcb491b4f10>: [Errno 2] No such file or directory: ''
+File 'main.py', line 68, in load_dotenv:
+stream = open(dotenv_path) if not stream else stream Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/bokeh/application/handlers/code_runner.py", line 229, in run
+    exec(self._code, module.__dict__)
+  File "/workspaces/test/myLangchainChatbot.py", line 33, in <module>
+    load_dotenv()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/dotenv_vault/main.py", line 68, in load_dotenv
+    stream = open(dotenv_path) if not stream else stream
+FileNotFoundError: [Errno 2] No such file or directory: ''
+ 
+2023-12-08 08:59:43,275 WebSocket connection opened
+2023-12-08 08:59:43,275 ServerConnection created
+2023-12-08 09:00:04,514 WebSocket connection closed: code=1001, reason=None
+2023-12-08 09:00:11,759 Error running application handler <bokeh.application.handlers.script.ScriptHandler object at 0x7fcb491b4f10>: [Errno 2] No such file or directory: ''
+File 'main.py', line 68, in load_dotenv:
+stream = open(dotenv_path) if not stream else stream Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/bokeh/application/handlers/code_runner.py", line 229, in run
+    exec(self._code, module.__dict__)
+  File "/workspaces/test/myLangchainChatbot.py", line 33, in <module>
+    load_dotenv()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/dotenv_vault/main.py", line 68, in load_dotenv
+    stream = open(dotenv_path) if not stream else stream
+FileNotFoundError: [Errno 2] No such file or directory: ''
+ 
+2023-12-08 09:00:12,104 WebSocket connection opened
+2023-12-08 09:00:12,105 ServerConnection created
+2023-12-08 09:00:16,417 WebSocket connection closed: code=1001, reason=None
+^C
+Interrupted, shutting down

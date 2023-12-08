@@ -32,7 +32,7 @@ from dotenv_vault import load_dotenv
 
 load_dotenv()
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-#print(os.getenv('OPENAI_API_KEY'))
+print(os.getenv('OPENAI_API_KEY'))
 
 # Set llm model
 llm_name = "gpt-3.5-turbo"
