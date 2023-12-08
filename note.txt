@@ -1,0 +1,76 @@
+# .env file
+OPENAI_API_KEY=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
+AZURE_OPENAI_API_KEY=ea9f2b1af53843eca4b422cec879e518
+HUGGING_FACE_API_KEY=**************************
+ANOTHER_API_KEY=1234567890234567890
+
+https://pws-gpt4.openai.azure.com/
+Eastus2
+a8aa2e071eef46ef921de6add911e091
+813f4ed1b8514e888368b157a2ba9b09
+
+https://quoc-ngo-openai.openai.azure.com/
+Eastus
+ea9f2b1af53843eca4b422cec879e518
+24b6c5c37eb743989333ec0df142fa6f
+
+
+# Load local env - old way
+#from dotenv import load_dotenv, find_dotenv
+#_=load_dotenv(find_dotenv()) # read local .env file
+#client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
+
+@linhht ➜ /workspaces/test (master) $ pip install --upgrade flask python-dotenv-vault
+@linhht ➜ /workspaces/test (master) $ 
+@linhht ➜ /workspaces/test (master) $ npx dotenv-vault@latest new vlt_7ff30dc191616f40a6b2655a35973f4a99b98a2c9deee508053506fb94da583d
+@linhht ➜ /workspaces/test (master) $ 
+@linhht ➜ /workspaces/test (master) $ npm install -g npm@10.2.5
+@linhht ➜ /workspaces/test (master) $ 
+@linhht ➜ /workspaces/test (master) $ npx dotenv-vault@latest pull
+local:    Login URL: https://vault.dotenv.org/login?DOTENV_VAULT=vlt_7ff30dc191616f40a6b2655a35973f4a99b98a2c9deee508053506fb94da583d&requestUid=req_857da7fee6a3eb61f596174814d6373520dc2e8c971fe4d2608c7a49e6f1877d
+local:    Press y (or any key) to open up the browser to login and generate credential (.env.me) or q to exit: y
+local:    Opening browser to https://vault.dotenv.org/login?DOTENV_VAULT=vlt_7ff30dc191616f40a6b2655a35973f4a99b98a2c9deee508053506fb94da583d&requestUid=req_857da7fee6a3eb61f596174814d6373520dc2e8c971fe4d2608c7a49e6f1877d
+local:    Waiting for login and credential (.env.me) to be generated... done
+local:    Created .env.me (DOTENV_ME=me_ad15c3...)
+remote:   Securely pulling... done
+remote:   Securely pulled development (.env)
+remote:   Securely built vault (.env.vault)
+@linhht ➜ /workspaces/test (master) $ npx dotenv-vault@latest open production
+local:    Project URL: https://vault.dotenv.org/open?DOTENV_VAULT=vlt_7ff30dc191616f40a6b2655a35973f4a99b98a2c9deee508053506fb94da583d&environment=production
+local:    Press y (or any key) to open up the browser to view your project or q to exit: y
+local:    Opening project page... done
+local:    Opening browser to https://vault.dotenv.org/open?DOTENV_VAULT=vlt_7ff30dc191616f40a6b2655a35973f4a99b98a2c9deee508053506fb94da583d&environment=production
+
+Next run npx dotenv-vault@latest push to push your .env file
+@linhht ➜ /workspaces/test (master) $ 
+@linhht ➜ /workspaces/test (master) $ npx dotenv-vault@latest build
+remote:   Securely building .env.vault... done
+remote:   Securely built .env.vault
+
+Next:
+1. Commit .env.vault to code
+2. Set DOTENV_KEY on server
+3. Deploy your code
+
+(run npx dotenv-vault@latest keys to view DOTENV_KEYs)
+@linhht ➜ /workspaces/test (master) $ 
+@linhht ➜ /workspaces/test (master) $ git add .env.vault
+ .env.vault file for deploy"
+@linhht ➜ /workspaces/test (master) $ git commit -am "Build encrypted .env.vault file for deploy"
+[master b9a89b8] Build encrypted .env.vault file for deploy
+ 3 files changed, 70 insertions(+), 8 deletions(-)
+ create mode 100644 .env.vault
+@linhht ➜ /workspaces/test (master) $ 
+@linhht ➜ /workspaces/test (master) $ npx dotenv-vault@latest keys production
+remote:   Listing .env.vault decryption keys... done
+dotenv://:key_3e01f516ab3afccab63494b905a641d5cb978d3640d6d3d6a4e29f3e76fb58ec@dotenv.org/vault/.env.vault?environment=production
+@linhht ➜ /workspaces/test (master) $ 
+
+This will output your production DOTENV_KEY. Use that DOTENV_KEY to run your application in production mode.
+
+$ DOTENV_KEY='dotenv://:key_1234@dotenv.org/vault/.env.vault?environment=production' flask --app index run
+# visit http://127.0.0.1:5000
+
+DOTENV_KEY='dotenv://:key_3e01f516ab3afccab63494b905a641d5cb978d3640d6d3d6a4e29f3e76fb58ec@dotenv.org/vault/.env.vault?environment=production' python myLangchainChatbot.py
+
+py myLangchainChatbot.pyalias py="DOTENV_KEY='dotenv://:key_3e01f516ab3afccab63494b905a641d5cb978d3640d6d3d6a4e29f3e76fb58ec@dotenv.org/vault/.env.vault?environment=production' python"
