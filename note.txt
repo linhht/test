@@ -113,3 +113,36 @@ FileNotFoundError: [Errno 2] No such file or directory: ''
 2023-12-08 09:00:16,417 WebSocket connection closed: code=1001, reason=None
 ^C
 Interrupted, shutting down
+
+############### my 1st langchain chatbot ###############
+This Python script is for a chatbot that uses the OpenAI API and the Langchain library to answer questions based on a set of documents. \
+Here's a high-level overview of what the script does:
+
+1. It imports necessary libraries and sets up the OpenAI client with your API key.
+
+2. It sets up a language model (llm) using the OpenAI API.
+
+3. It sets up a vector database using the Langchain library, which is used to find documents that are similar to a given question.
+
+4. It initializes a chat model and a prompt template for the chatbot.
+
+5. It sets up a retrieval question-answering (QA) chain, which uses the vector database to find relevant documents and \
+the language model to generate answers.
+
+6. It sets up a memory buffer to keep track of the chat history.
+
+7. It sets up a conversational retrieval chain, which uses the retrieval QA chain and the memory buffer to answer questions \
+in a conversational manner.
+
+8. It defines a function to load a database from a PDF file and create a chatbot chain.
+
+9. It defines a class for the chatbot, which includes methods for loading the database, running the conversational chain, \
+and displaying the chat history and database queries.
+
+10. It sets up a user interface for the chatbot using the Panel library.
+
+11. Finally, it makes the chatbot available as a web service.
+
+Please note that the code is quite complex and involves several advanced topics, including natural language processing, \
+vector databases, and web services. If you have specific questions about certain parts of the code, feel free to ask!
+########################################################
