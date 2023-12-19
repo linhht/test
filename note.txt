@@ -177,3 +177,7 @@ To use the tool, always respond with the following format:
 }
 
 How many open orders do we have?
+
+############# ChatGPT function ###############
+https://transform.tools/json-to-json-schema
+
