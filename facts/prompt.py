@@ -6,6 +6,9 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
 from langchain.chat_models import ChatOpenAI
 
+import langchain
+langchain.debug = True
+
 # To support sqlite3
 __import__('pysqlite3')
 import sys
@@ -26,7 +29,11 @@ retriever = db.as_retriever()
 chain = RetrievalQA.from_chain_type(
     llm=chat,
     retriever=retriever,
-    chain_type="stuff"
+    chain_type="refine"
+    #chain_type="map_rerank"
+    #chain_type="map_reduce"
+    #chain_type="stuff"
+    #verbose = True
 )
 
 result = chain.run("What is an interesting fact about the English language?")
