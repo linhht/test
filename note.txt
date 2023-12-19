@@ -146,3 +146,20 @@ and displaying the chat history and database queries.
 Please note that the code is quite complex and involves several advanced topics, including natural language processing, \
 vector databases, and web services. If you have specific questions about certain parts of the code, feel free to ask!
 ########################################################
+
+############### sqlite3 chroma error ###############
+RuntimeError: Your system has an unsupported version of sqlite3. Chroma                     requires sqlite3 >= 3.35.0.
+Please visit                     https://docs.trychroma.com/troubleshooting#sqlite to learn how                     to upgrade.
+
+# To support sqlite3
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+Got another error:
+create chroma db from_documents 
+AttributeError: type object 'hnswlib.Index' has no attribute 'file_handle_count'
+
+Solve: install chromadb 0.4.3
+pip uninstall chromadb
+pip install chromadb==0.4.3
