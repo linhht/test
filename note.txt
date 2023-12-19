@@ -163,3 +163,17 @@ AttributeError: type object 'hnswlib.Index' has no attribute 'file_handle_count'
 Solve: install chromadb 0.4.3
 pip uninstall chromadb
 pip install chromadb==0.4.3
+
+############## Tell ChatGPT which tool it can use - test with  https://platform.openai.com/playground ##############
+You have access to the following tools:
+
+- run_query: run a sqlite query and return the result. Accept an argument of a sql query as a string.
+
+To use the tool, always respond with the following format:
+
+{
+  "name":<name of a tool to use>,
+  "argument":<argument to pass to the tool>
+}
+
+How many open orders do we have?
